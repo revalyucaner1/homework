@@ -1,0 +1,52 @@
+.header {
+}
+.header__container {
+  display: flex;
+  padding-top: 7.3rem;
+  padding-bottom: 7.3rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  gap: 5.7rem;
+  li {
+  }
+  a {
+    color: #fff;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover {
+      color: #fff;
+      font-family: "Raleway";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-decoration-line: underline;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .header__container {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+  }
+  .site-logo__img {
+    width: 80px;
+    height: 24px;
+  }
+  .sitenav__list {
+    gap: 2rem;
+    a {
+      font-size: 1.2rem;
+    }
+  }
+}
